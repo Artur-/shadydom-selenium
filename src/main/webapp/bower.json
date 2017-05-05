@@ -1,0 +1,20 @@
+{
+  "name": "webapp",
+  "authors": [
+    "Artur Signell <artur@vaadin.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "v1.0.0-rc.11"
+  }
+}
