@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "webcomponentsjs": "v1.0.0-rc.11"
+    "webcomponentsjs": "v1.1.0",
+    "vaadin-grid": "4.1.4"
   }
 }

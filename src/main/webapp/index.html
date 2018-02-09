@@ -2,8 +2,114 @@
 <html>
   <head>
     <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="bower_components/vaadin-grid/vaadin-grid.html"></script>
   </head>
   <body>
-    Hello
+  
+    <vaadin-grid id="grid">
+      <vaadin-grid-column>
+        <template class="header">Name</template>
+        <template>[[item.name]]</template>
+      </vaadin-grid-column>
+    </vaadin-grid>
+    <script>
+      document.getElementById("grid").items = [
+        {"name": "Lynn Pritchard"},
+        {"name": "Buiron Strowther"},
+        {"name": "Waylen Skyner"},
+        {"name": "Baldwin Lurriman"},
+        {"name": "Nertie Voelker"},
+        {"name": "Pansy Corter"},
+        {"name": "Say Westley"},
+        {"name": "Ada Rozier"},
+        {"name": "Red Towll"},
+        {"name": "Hadleigh Gutsell"},
+        {"name": "Gray Allawy"},
+        {"name": "Issie Dimitrijevic"},
+        {"name": "Annis Everix"},
+        {"name": "Erika Bluck"},
+        {"name": "Nikaniki Standon"},
+        {"name": "Gerrard Poznan"},
+        {"name": "Tamqrah Nial"},
+        {"name": "Joeann Duffie"},
+        {"name": "Nye Ketchen"},
+        {"name": "Raimondo Feaveryear"},
+        {"name": "Jaquelin Crawshay"},
+        {"name": "Elfie Gilliat"},
+        {"name": "Addison Watford"},
+        {"name": "Marisa O'Quin"},
+        {"name": "Shela Gronav"},
+        {"name": "Angil Minshull"},
+        {"name": "Antonetta Ferreres"},
+        {"name": "Agata Ownsworth"},
+        {"name": "Pansie Yakushkin"},
+        {"name": "Dallis Pinch"},
+        {"name": "Bordy Hallad"},
+        {"name": "Gerald Shermore"},
+        {"name": "Bartolemo Opy"},
+        {"name": "Armando Sayward"},
+        {"name": "Brewster Grier"},
+        {"name": "Tate Purshouse"},
+        {"name": "Nikki Rounce"},
+        {"name": "Milena Rollason"},
+        {"name": "Merrill Rampley"},
+        {"name": "Iris Bradburn"},
+        {"name": "Jeramey Trebbett"},
+        {"name": "Selene Poone"},
+        {"name": "Marion Lockie"},
+        {"name": "Holden Burcher"},
+        {"name": "Fara Stuther"},
+        {"name": "Joyann Gutteridge"},
+        {"name": "Payton Mascall"},
+        {"name": "Sonny Mayzes"},
+        {"name": "Lionello Blackbourn"},
+        {"name": "Pavel Riteley"},
+        {"name": "Roman Zanetello"},
+        {"name": "Marilee MacDowal"},
+        {"name": "Melania Keable"},
+        {"name": "Saw Murray"},
+        {"name": "Bailie Dymidowicz"},
+        {"name": "Anabelle Masurel"},
+        {"name": "Rhea Beggio"},
+        {"name": "Allen Haggett"},
+        {"name": "Clari Joberne"},
+        {"name": "Shawna Guest"},
+        {"name": "Lenee Cawkill"},
+        {"name": "Katinka Ragsdall"},
+        {"name": "Caressa Wloch"},
+        {"name": "Mariejeanne Kneesha"},
+        {"name": "Haily Gilding"},
+        {"name": "Janifer Arter"},
+        {"name": "Annmarie Ashborn"},
+        {"name": "Cecily Sellek"},
+        {"name": "Retha Hoggin"},
+        {"name": "Antin Churchill"},
+        {"name": "Clark Cotelard"},
+        {"name": "Herbert Halcro"},
+        {"name": "Hadrian Copello"},
+        {"name": "Gerrilee Gouck"},
+        {"name": "Ethelyn Taw"},
+        {"name": "Ceil Cowoppe"},
+        {"name": "Dolorita Lettley"},
+        {"name": "Lemar Bristo"},
+        {"name": "Tammy Ondra"},
+        {"name": "Daphene Corzon"},
+        {"name": "Brigg Spieck"},
+        {"name": "Lisabeth MacCallester"},
+        {"name": "Adora Gaughan"},
+        {"name": "Rozalie Flook"},
+        {"name": "Genvieve Serchwell"},
+        {"name": "Sheri Braybrook"},
+        {"name": "Angeli Hardstaff"},
+        {"name": "Dominic Quail"},
+        {"name": "Dori Bernhard"},
+        {"name": "Carmon Tchir"},
+        {"name": "Beulah Arnott"},
+        {"name": "Ertha Giacomuzzo"},
+        {"name": "Ranee Docker"},
+      
+      ];
+    </script>
+    
   </body>
 </html>
